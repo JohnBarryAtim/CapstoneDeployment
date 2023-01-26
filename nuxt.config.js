@@ -33,7 +33,8 @@ export default {
     '~/plugins/firebase.js'
   ],
   router: {
-    middleware: ['auth']
+    base: '/dist',
+    middleware: ['auth/signin']
   },
 
   // Auto import components: https://go.nuxtjs.dev/config-components

@@ -34,7 +34,7 @@ export default {
   ],
   router: {
     base: '/dist',
-    middleware: ['auth/signin']
+    middleware: ['auth']
   },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
